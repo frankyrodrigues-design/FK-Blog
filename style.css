@@ -1,0 +1,11 @@
+:root {
+    --preto: #0d1b2aff;
+    --azul-da-prússia: #1b263bff;
+    --azul-crepúsculo: #415a77ff;
+    --jeans-com-aspecto-empoeirado: #778da9ff;
+}
+body{
+ background: var(--preto);
+
+
+}
