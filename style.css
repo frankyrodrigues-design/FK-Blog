@@ -1,11 +1,17 @@
-:root {
-    --preto: #0d1b2aff;
-    --azul-da-prússia: #1b263bff;
-    --azul-crepúsculo: #415a77ff;
-    --jeans-com-aspecto-empoeirado: #778da9ff;
+@import url('https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cinza-chumbo: rgb(0, 0, 0);
+    --cinza-verde: rgb(255, 255, 255);
+    --prata: rgb(0, 82, 31);
+    --branco: rgb(119, 3, 3);
+    --titulo: "Montenegrin Gothic One", serif;
+    --texto:  "Raleway", sans-serif;
 }
 body{
- background: var(--preto);
-
-
+    background: var(--cinza-verde);
+    font-family: var(--texto);
+}
+h1{
+    font-family: var(--titulo); 
 }
