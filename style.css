@@ -6,7 +6,7 @@
 }
 
 :root {
-    --cinza-escuro: rgb(4, 70, 64);
+    --cinza-escuro: rgb(102, 114, 113);
     --cinza: rgb(44, 14, 3);
     --preto: rgb(35, 36, 36);
     --branco: rgb(255, 255, 255);
@@ -35,6 +35,14 @@ header {
     color: var(--branco);
     text-transform: uppercase;
     font-size: 14px;
+}
+.menu a{
+ text-decoration: none;
+ color: var(--branco);
+}
+.menu a:hover{
+    color: var(--cinza-escuro);
+    transition: 1s;
 }
 .img-capa {
     width:100%;
