@@ -48,3 +48,19 @@ header {
     width:100%;
     height: 10%;
 }
+.conteudo{
+    margin: 30px;
+    border: 2px solid var(--preto);
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+}
+.conteudo-basico{
+    font-family: var(--titulo);
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.conteudo-guia-rapido{
+    font-family: var(--texto);
+    font-size: 14px;
+}
