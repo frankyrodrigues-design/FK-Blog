@@ -26,6 +26,10 @@ header {
     color: var(--branco);
     padding: 10px;
 }
+.logo{
+    width: 15%;
+    border-radius: 100%;
+}
 
 .menu {
     display: flex;
@@ -63,4 +67,12 @@ header {
 .conteudo-guia-rapido{
     font-family: var(--texto);
     font-size: 14px;
+}
+footer{
+    background-color: var(--preto);
+    color: var(--branco);
+    font-family: var(--titulo);
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
 }
