@@ -76,8 +76,9 @@ header {
 .noticias {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 20px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: 20px 150px;
 }
 
 .card {
@@ -109,6 +110,20 @@ header {
     margin: 0 5px;
     cursor: pointer;
 }
+
+footer {
+    background-color: var(--preto);
+    color: var(--branco);
+    font-family: var(--titulo);
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/*NOTICIAS*/
+
+
 
 .img-capa {
     width: 100%;
