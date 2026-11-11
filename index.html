@@ -26,34 +26,34 @@
         <h2>Novidades sobre a atualização</h2>
         <div class="noticias">
             <div class="card">
-               
-               
+
+
                 <img src="img/capa-mine.svg" alt="Casa de blocos com uma tocha">
                 <h3>tudo que veio para a nova atualização</h3>
                 <p> escadas de lãs, e uma almofada e .....</p>
                 <div class="botoes">
-                    <button>👍</button>
-                    <button>❤️</button>
+                    <button class="botao-curtida">👍<span>0</span></button>
+                    <button class="botao-amei">❤️<span>0</span></button>
                 </div>
 
 
                 <div class="card">
                     <img src="img/capa-mine.svg" alt="Casa de blocos com uma tocha">
                     <h3>tudo que veio para a nova atualização</h3>
-                    <p> escadas de lãs, e uma almofada e .....</p>
+                    <p> almofada</p>
                     <div class="botoes">
-                        <button>👍</button>
-                        <button>❤️</button>
+                        <button class="botao-curtida">👍<span>0</span></button>
+                        <button class="botao-amei">❤️<span>0</span></button>
                     </div>
 
 
                     <div class="card">
                         <img src="img/capa-mine.svg" alt="Casa de blocos com uma tocha">
                         <h3>tudo que veio para a nova atualização</h3>
-                        <p> escadas de lãs, e uma almofada e .....</p>
+                        <p> escadas de lãs</p>
                         <div class="botoes">
-                            <button>👍</button>
-                            <button>❤️</button>
+                            <button class="botao-curtida">👍<span>0</span></button>
+                            <button class="botao-amei">❤️<span>0</span></button>
                         </div>
 
 
@@ -65,5 +65,17 @@
         <p>Feito por Franky ©</p>
     </footer>
 </body>
+<script>
+    const botoes = document.querySelectorAll('.botao-curtida');
+    botoes.forEach(botao => {
+        botao.addEventListener('click', botaoClicado)
+    });
+
+    function botaoClicado() {
+        console.log('Botao clicado')
+        let texto = event.currentTarget.querySelector('span');
+        texto.textContent++
+    }
+</script>
 
 </html>
